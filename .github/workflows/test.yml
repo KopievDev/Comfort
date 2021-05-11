@@ -14,8 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: fwal/setup-swift@v1
-    - name: Build
+    - name: Build and test
       run: echo 'hello' \
         swift package init \
         swift package generate-xcodeproj \
         swift build -v \
+        swift test -v
