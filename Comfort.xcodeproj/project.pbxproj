@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55DDE0A2654384400006D63 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE092654384400006D63 /* SaleViewController.swift */; };
+		B55DDE0F2654385300006D63 /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE0E2654385300006D63 /* RentViewController.swift */; };
+		B55DDE142654385E00006D63 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE132654385E00006D63 /* SettingViewController.swift */; };
+		B55DDE1A26543AEA00006D63 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE1926543AEA00006D63 /* House.swift */; };
+		B55DDE232654434500006D63 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE222654434500006D63 /* Firebase.swift */; };
+		B55DDE332654507D00006D63 /* SaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE322654507D00006D63 /* SaleCell.swift */; };
+		B55DDE382654509100006D63 /* RentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE372654509100006D63 /* RentCell.swift */; };
 		B5A2E38726455F23005436D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2E38626455F23005436D6 /* AppDelegate.swift */; };
 		B5A2E38926455F23005436D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2E38826455F23005436D6 /* SceneDelegate.swift */; };
-		B5A2E38B26455F23005436D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2E38A26455F23005436D6 /* ViewController.swift */; };
+		B5A2E38B26455F23005436D6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2E38A26455F23005436D6 /* AuthViewController.swift */; };
 		B5A2E38E26455F23005436D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A2E38C26455F23005436D6 /* Main.storyboard */; };
 		B5A2E39026455F26005436D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A2E38F26455F26005436D6 /* Assets.xcassets */; };
 		B5A2E39326455F26005436D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A2E39126455F26005436D6 /* LaunchScreen.storyboard */; };
 		B5A2E39E26455F27005436D6 /* ComfortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2E39D26455F27005436D6 /* ComfortTests.swift */; };
 		B5A2E3A926455F27005436D6 /* ComfortUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2E3A826455F27005436D6 /* ComfortUITests.swift */; };
+		B5DC894A264D9656008FCE76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5DC8949264D9656008FCE76 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B55DDE092654384400006D63 /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		B55DDE0E2654385300006D63 /* RentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
+		B55DDE132654385E00006D63 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B55DDE1926543AEA00006D63 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		B55DDE222654434500006D63 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		B55DDE322654507D00006D63 /* SaleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCell.swift; sourceTree = "<group>"; };
+		B55DDE372654509100006D63 /* RentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCell.swift; sourceTree = "<group>"; };
 		B5A2E38326455F23005436D6 /* Comfort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comfort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A2E38626455F23005436D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5A2E38826455F23005436D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5A2E38A26455F23005436D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5A2E38A26455F23005436D6 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		B5A2E38D26455F23005436D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5A2E38F26455F26005436D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5A2E39226455F26005436D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,7 @@
 		B5A2E3A426455F27005436D6 /* ComfortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComfortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A2E3A826455F27005436D6 /* ComfortUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortUITests.swift; sourceTree = "<group>"; };
 		B5A2E3AA26455F27005436D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DC8949264D9656008FCE76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B55DDE08265437CC00006D63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B55DDE2E26544A8700006D63 /* Auth */,
+				B55DDE2826544A5E00006D63 /* Sale */,
+				B55DDE2C26544A6F00006D63 /* Rent */,
+				B55DDE2D26544A7600006D63 /* Setting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B55DDE1826543AD800006D63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B55DDE1926543AEA00006D63 /* House.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B55DDE1E265442C700006D63 /* Application layer */ = {
+			isa = PBXGroup;
+			children = (
+				B5A2E38826455F23005436D6 /* SceneDelegate.swift */,
+				B5A2E38626455F23005436D6 /* AppDelegate.swift */,
+				B55DDE222654434500006D63 /* Firebase.swift */,
+			);
+			path = "Application layer";
+			sourceTree = "<group>";
+		};
+		B55DDE2726544A3900006D63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5A2E39126455F26005436D6 /* LaunchScreen.storyboard */,
+				B5A2E38C26455F23005436D6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B55DDE2826544A5E00006D63 /* Sale */ = {
+			isa = PBXGroup;
+			children = (
+				B55DDE092654384400006D63 /* SaleViewController.swift */,
+				B55DDE322654507D00006D63 /* SaleCell.swift */,
+			);
+			path = Sale;
+			sourceTree = "<group>";
+		};
+		B55DDE2C26544A6F00006D63 /* Rent */ = {
+			isa = PBXGroup;
+			children = (
+				B55DDE0E2654385300006D63 /* RentViewController.swift */,
+				B55DDE372654509100006D63 /* RentCell.swift */,
+			);
+			path = Rent;
+			sourceTree = "<group>";
+		};
+		B55DDE2D26544A7600006D63 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B55DDE132654385E00006D63 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B55DDE2E26544A8700006D63 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B5A2E38A26455F23005436D6 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		B5A2E37A26455F23005436D6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +187,12 @@
 		B5A2E38526455F23005436D6 /* Comfort */ = {
 			isa = PBXGroup;
 			children = (
-				B5A2E38626455F23005436D6 /* AppDelegate.swift */,
-				B5A2E38826455F23005436D6 /* SceneDelegate.swift */,
-				B5A2E38A26455F23005436D6 /* ViewController.swift */,
-				B5A2E38C26455F23005436D6 /* Main.storyboard */,
+				B55DDE1E265442C700006D63 /* Application layer */,
+				B55DDE1826543AD800006D63 /* Models */,
+				B55DDE08265437CC00006D63 /* Controllers */,
+				B55DDE2726544A3900006D63 /* Views */,
 				B5A2E38F26455F26005436D6 /* Assets.xcassets */,
-				B5A2E39126455F26005436D6 /* LaunchScreen.storyboard */,
+				B5DC8949264D9656008FCE76 /* GoogleService-Info.plist */,
 				B5A2E39426455F26005436D6 /* Info.plist */,
 			);
 			path = Comfort;
@@ -234,6 +322,7 @@
 				B5A2E39326455F26005436D6 /* LaunchScreen.storyboard in Resources */,
 				B5A2E39026455F26005436D6 /* Assets.xcassets in Resources */,
 				B5A2E38E26455F23005436D6 /* Main.storyboard in Resources */,
+				B5DC894A264D9656008FCE76 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A2E38B26455F23005436D6 /* ViewController.swift in Sources */,
+				B55DDE382654509100006D63 /* RentCell.swift in Sources */,
+				B55DDE1A26543AEA00006D63 /* House.swift in Sources */,
+				B5A2E38B26455F23005436D6 /* AuthViewController.swift in Sources */,
+				B55DDE232654434500006D63 /* Firebase.swift in Sources */,
 				B5A2E38726455F23005436D6 /* AppDelegate.swift in Sources */,
 				B5A2E38926455F23005436D6 /* SceneDelegate.swift in Sources */,
+				B55DDE0F2654385300006D63 /* RentViewController.swift in Sources */,
+				B55DDE0A2654384400006D63 /* SaleViewController.swift in Sources */,
+				B55DDE332654507D00006D63 /* SaleCell.swift in Sources */,
+				B55DDE142654385E00006D63 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
